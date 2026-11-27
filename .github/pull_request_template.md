@@ -2,7 +2,7 @@
 
 <!-- What does this PR change, and why? -->
 
-Closes #
+Closes # (if there is an issue)
 
 ## How I tested
 
@@ -10,7 +10,7 @@ Closes #
 
 ## Checklist
 
-- [ ] Branch name follows `type/<issue>-short-name`
+- [ ] Branch name follows `type/short-name`
 - [ ] Commits follow Conventional Commits
 - [ ] Lint, typecheck and tests pass locally
 - [ ] Docs/README updated if behavior changed
