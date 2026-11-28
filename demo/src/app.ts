@@ -10,10 +10,10 @@ app.get("/health", (_req: Request, res: Response) => {
 });
 
 app.use((_req: Request, res: Response) => {
-  res.status(404).json({ error: "Rota não encontrada" });
+  res.status(404).json({ error: "Route not found" });
 });
 
 app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
   console.error(err);
-  res.status(500).json({ error: "Erro interno do servidor" });
+  res.status(500).json({ error: "Internal server error" });
 });
